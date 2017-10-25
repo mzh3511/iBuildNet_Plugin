@@ -32,15 +32,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BLL">
-      <HintPath>..\..\iBuilding\iBuilding.UI\bin\x86\Debug\BLL.dll</HintPath>
+    <Reference Include="BLL, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\iBuildNet_UK2\iBuilding\iBuilding.UI\bin\x86\Debug\BLL.dll</HintPath>
     </Reference>
-    <Reference Include="Const, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Const, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\iBuildNet_UK2\iBuilding\iBuilding.UI\bin\x86\Debug\Const.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PresentationCore" />
     <Reference Include="RanplanWireless.Professional.SDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\iBuilding\iBuilding.PluginSDK.API\bin\x86\Debug\RanplanWireless.Professional.SDK.dll</HintPath>
+      <HintPath>..\..\iBuildNet_UK2\iBuilding\iBuilding.UI\bin\x86\Debug\RanplanWireless.Professional.SDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
